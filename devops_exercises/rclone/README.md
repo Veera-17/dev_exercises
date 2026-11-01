@@ -7,10 +7,9 @@ This repository contains the complete implementation, automation scripts, test h
 ## Table of Contents
 1. [Overview & Architecture](#1-overview--architecture)
 2. [Prerequisites & Environment Setup](#2-prerequisites--environment-setup)
-3. [File Structure & Deliverables](#3-file-structure--deliverables)
-4. [Reproduction & Automation Guide (`transfer.sh`)](#4-reproduction--automation-guide-transfersh)
-5. [Documentation Index](#5-documentation-index)
-6. [Answers to Demonstration & Evaluation Questions](#6-answers-to-demonstration--evaluation-questions)
+3. [Reproduction & Automation Guide (`transfer.sh`)](#3-reproduction--automation-guide-transfersh)
+4. [Documentation Index](#4-documentation-index)
+5. [Answers to Demonstration & Evaluation Questions](#5-answers-to-demonstration--evaluation-questions)
 
 ---
 
@@ -108,7 +107,7 @@ tail -n 25 transfer.log
 
 ---
 
-## 5. Documentation Index
+## 4. Documentation Index
 
 For deeper technical details, refer to the companion documents:
 - **[commands.md](commands.md)**: Exhaustive reference of every raw CLI command (`ls`, `lsl`, `lsd`, `copy`, `move`, `sync`, `check`, `delete`) and all CLI flags (`--bwlimit`, `--transfers`, `--checkers`, `--stats`, etc.).
@@ -116,7 +115,7 @@ For deeper technical details, refer to the companion documents:
 
 ---
 
-## 6. Answers to Demonstration & Evaluation Questions
+## 5. Answers to Demonstration & Evaluation Questions
 
 ### Q1: What happens when `rclone copy` is executed twice with the same source and destination?
 **Answer:**

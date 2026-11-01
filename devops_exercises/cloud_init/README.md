@@ -114,5 +114,4 @@ flowchart LR
 | **Once Per Instance** (`once-per-instance`) | Runs only the very first time the VM is initialized. Skipped on all subsequent reboots. | • User creation (`testpress`)<br/>• Package install (`docker.io, ffmpeg`)<br/>• `write_files`<br/>• `runcmd` | `/var/lib/cloud/instances/<id>/sem/` |
 | **Every Boot** (`always` / `per-boot`) | Runs every time the operating system boots up. | • Network route setup<br/>• Metadata re-evaluation<br/>• Starting enabled systemd units (`testpress-app.service`) | Systemd target hooks |
 
-For full details, see [CLOUD_INIT_EXECUTION_STAGES.md](./CLOUD_INIT_EXECUTION_STAGES.md).
 For the exact execution logs, see [VERIFICATION_COMMANDS_AND_OUTPUTS.md](./VERIFICATION_COMMANDS_AND_OUTPUTS.md).
