@@ -1,0 +1,40 @@
+#Ignore all compiled python files
+*.pyc
+*.pyo
+*.db
+
+# ignore editor backup files
+*~
+*.swp
+*.swo
+*.swn
+*.swm
+
+#Ignore all emacs files
+*#
+.#*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+
+# IDE files
+.idea
+.vscode
+*.bak
+
+CACHE
+testpress/static/img/answers
+testpress/static/img/questions 
+testpress/uploads
+testpress/static/bulk
+
+# Fabric
+scripts/*.conf
+scripts/bash_aliases
+
+.env
+
+node_modules
+
+.venv/

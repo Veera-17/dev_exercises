@@ -1,0 +1,231 @@
+[2026-10-31 18:28:57] [INFO] ============================================================
+[2026-10-31 18:28:57] [INFO] Starting transfer operation: copy
+[2026-10-31 18:28:57] [INFO] Source:      test_data/source
+[2026-10-31 18:28:57] [INFO] Destination: myminio:rclone-bucket-1/transfer_test/
+[2026-10-31 18:29:02] [SUCCESS] Operation 'copy' completed successfully in 5s.
+[2026-10-31 18:29:02] [INFO] Finished at: 2026-10-31 18:29:02
+[2026-10-31 18:29:02] [INFO] ============================================================
+[2026-10-31 18:29:02] [INFO] ============================================================
+[2026-10-31 18:29:02] [INFO] Starting transfer operation: check
+[2026-10-31 18:29:02] [INFO] Source:      test_data/source
+[2026-10-31 18:29:02] [INFO] Destination: myminio:rclone-bucket-1/transfer_test/
+[2026-10-31 18:29:03] [SUCCESS] Operation 'check' completed successfully in 1s.
+[2026-10-31 18:29:03] [INFO] Finished at: 2026-10-31 18:29:03
+[2026-10-31 18:29:03] [INFO] ============================================================
+[2026-10-31 18:29:03] [INFO] ============================================================
+[2026-10-31 18:29:03] [INFO] Starting transfer operation: sync
+[2026-10-31 18:29:03] [INFO] Source:      test_data/source
+[2026-10-31 18:29:03] [INFO] Destination: myminio:rclone-bucket-1/transfer_test/
+[2026-10-31 18:29:03] [INFO] Options:     --dry-run
+[2026-10-31 18:29:03] [SUCCESS] Operation 'sync' completed successfully in 0s.
+[2026-10-31 18:29:03] [INFO] Finished at: 2026-10-31 18:29:03
+[2026-10-31 18:29:03] [INFO] ============================================================
+[2026-10-31 18:29:03] [INFO] ============================================================
+[2026-10-31 18:29:03] [INFO] Starting transfer operation: copy
+[2026-10-31 18:29:03] [INFO] Source:      test_data/non_existent_dir
+[2026-10-31 18:29:03] [INFO] Destination: myminio:rclone-bucket-1/fail/
+[2026-10-31 18:29:03] [ERROR] Operation 'copy' failed with exit code 3 after 0s.
+[2026-10-31 18:29:03] [INFO] Finished at: 2026-10-31 18:29:03
+[2026-10-31 18:29:03] [INFO] ============================================================
+[2026-10-31 21:09:06] [INFO] ============================================================
+[2026-10-31 21:09:06] [INFO] Starting transfer operation: copy
+[2026-10-31 21:09:06] [INFO] Source:      ./test_data/source
+[2026-10-31 21:09:06] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:09:08] [SUCCESS] Operation 'copy' completed successfully in 2s.
+[2026-10-31 21:09:08] [INFO] Finished at: 2026-10-31 21:09:08
+[2026-10-31 21:09:08] [INFO] ============================================================
+[2026-10-31 21:09:22] [INFO] ============================================================
+[2026-10-31 21:09:22] [INFO] Starting transfer operation: copy
+[2026-10-31 21:09:22] [INFO] Source:      ./test_data/source
+[2026-10-31 21:09:22] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:09:22] [INFO] Options:     --dry-run
+[2026-10-31 21:09:22] [SUCCESS] Operation 'copy' completed successfully in 0s.
+[2026-10-31 21:09:22] [INFO] Finished at: 2026-10-31 21:09:22
+[2026-10-31 21:09:22] [INFO] ============================================================
+[2026-10-31 21:09:47] [INFO] ============================================================
+[2026-10-31 21:09:47] [INFO] Starting transfer operation: copy
+[2026-10-31 21:09:47] [INFO] Source:      ./test_data/source
+[2026-10-31 21:09:47] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:09:47] [INFO] Options:     --dry-run --progress
+[2026-10-31 21:09:47] [SUCCESS] Operation 'copy' completed successfully in 0s.
+[2026-10-31 21:09:47] [INFO] Finished at: 2026-10-31 21:09:47
+[2026-10-31 21:09:47] [INFO] ============================================================
+[2026-10-31 21:09:54] [INFO] ============================================================
+[2026-10-31 21:09:54] [INFO] Starting transfer operation: copy
+[2026-10-31 21:09:54] [INFO] Source:      ./test_data/source
+[2026-10-31 21:09:54] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:09:54] [INFO] Options:     --progress
+[2026-10-31 21:09:55] [SUCCESS] Operation 'copy' completed successfully in 1s.
+[2026-10-31 21:09:55] [INFO] Finished at: 2026-10-31 21:09:55
+[2026-10-31 21:09:55] [INFO] ============================================================
+[2026-10-31 21:10:54] [INFO] ============================================================
+[2026-10-31 21:10:54] [INFO] Starting transfer operation: copy
+[2026-10-31 21:10:54] [INFO] Source:      ./test_data/source
+[2026-10-31 21:10:54] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:10:54] [INFO] Options:     --progress
+[2026-10-31 21:10:54] [SUCCESS] Operation 'copy' completed successfully in 0s.
+[2026-10-31 21:10:54] [INFO] Finished at: 2026-10-31 21:10:54
+[2026-10-31 21:10:54] [INFO] ============================================================
+[2026-10-31 21:11:30] [INFO] ============================================================
+[2026-10-31 21:11:30] [INFO] Starting transfer operation: move
+[2026-10-31 21:11:30] [INFO] Source:      ./test_data/source
+[2026-10-31 21:11:30] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:11:30] [INFO] Options:     --progress
+[2026-10-31 21:11:30] [SUCCESS] Operation 'move' completed successfully in 0s.
+[2026-10-31 21:11:30] [INFO] Finished at: 2026-10-31 21:11:30
+[2026-10-31 21:11:30] [INFO] ============================================================
+[2026-10-31 21:11:57] [INFO] ============================================================
+[2026-10-31 21:11:57] [INFO] Starting transfer operation: move
+[2026-10-31 21:11:57] [INFO] Source:      ./test_data/source
+[2026-10-31 21:11:57] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:11:57] [INFO] Options:     --dry-run
+[2026-10-31 21:11:57] [SUCCESS] Operation 'move' completed successfully in 0s.
+[2026-10-31 21:11:57] [INFO] Finished at: 2026-10-31 21:11:57
+[2026-10-31 21:11:57] [INFO] ============================================================
+[2026-10-31 21:12:04] [INFO] ============================================================
+[2026-10-31 21:12:04] [INFO] Starting transfer operation: move
+[2026-10-31 21:12:04] [INFO] Source:      ./test_data/source
+[2026-10-31 21:12:04] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:12:04] [ERROR] Operation 'move' failed with exit code 3 after 0s.
+[2026-10-31 21:12:04] [INFO] Finished at: 2026-10-31 21:12:04
+[2026-10-31 21:12:04] [INFO] ============================================================
+[2026-10-31 21:12:53] [INFO] ============================================================
+[2026-10-31 21:12:53] [INFO] Starting transfer operation: sync
+[2026-10-31 21:12:53] [INFO] Source:      ./test_data/source
+[2026-10-31 21:12:53] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:12:53] [INFO] Options:     --dry-run
+[2026-10-31 21:12:53] [ERROR] Operation 'sync' failed with exit code 3 after 0s.
+[2026-10-31 21:12:53] [INFO] Finished at: 2026-10-31 21:12:53
+[2026-10-31 21:12:53] [INFO] ============================================================
+[2026-10-31 21:13:25] [INFO] ============================================================
+[2026-10-31 21:13:25] [INFO] Starting transfer operation: sync
+[2026-10-31 21:13:25] [INFO] Source:      ./test_data/source
+[2026-10-31 21:13:25] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:13:25] [INFO] Options:     --dry-run
+[2026-10-31 21:13:25] [SUCCESS] Operation 'sync' completed successfully in 0s.
+[2026-10-31 21:13:25] [INFO] Finished at: 2026-10-31 21:13:25
+[2026-10-31 21:13:25] [INFO] ============================================================
+[2026-10-31 21:13:53] [INFO] ============================================================
+[2026-10-31 21:13:53] [INFO] Starting transfer operation: sync
+[2026-10-31 21:13:53] [INFO] Source:      ./test_data/source
+[2026-10-31 21:13:53] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:13:53] [SUCCESS] Operation 'sync' completed successfully in 0s.
+[2026-10-31 21:13:53] [INFO] Finished at: 2026-10-31 21:13:53
+[2026-10-31 21:13:53] [INFO] ============================================================
+[2026-10-31 21:16:49] [INFO] ============================================================
+[2026-10-31 21:16:49] [INFO] Starting transfer operation: sync
+[2026-10-31 21:16:49] [INFO] Source:      ./test_data/source
+[2026-10-31 21:16:49] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:16:49] [SUCCESS] Operation 'sync' completed successfully in 0s.
+[2026-10-31 21:16:49] [INFO] Finished at: 2026-10-31 21:16:49
+[2026-10-31 21:16:49] [INFO] ============================================================
+[2026-10-31 21:17:33] [INFO] ============================================================
+[2026-10-31 21:17:33] [INFO] Starting transfer operation: sync
+[2026-10-31 21:17:33] [INFO] Source:      ./test_data/source
+[2026-10-31 21:17:33] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:17:33] [SUCCESS] Operation 'sync' completed successfully in 0s.
+[2026-10-31 21:17:33] [INFO] Finished at: 2026-10-31 21:17:33
+[2026-10-31 21:17:33] [INFO] ============================================================
+[2026-10-31 21:21:16] [INFO] ============================================================
+[2026-10-31 21:21:16] [INFO] Starting transfer operation: check
+[2026-10-31 21:21:16] [INFO] Source:      ./test_data/source
+[2026-10-31 21:21:16] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:21:16] [SUCCESS] Operation 'check' completed successfully in 0s.
+[2026-10-31 21:21:16] [INFO] Finished at: 2026-10-31 21:21:16
+[2026-10-31 21:21:16] [INFO] ============================================================
+[2026-10-31 21:21:30] [INFO] ============================================================
+[2026-10-31 21:21:30] [INFO] Starting transfer operation: check
+[2026-10-31 21:21:30] [INFO] Source:      ./test_data/source
+[2026-10-31 21:21:30] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:21:31] [ERROR] Operation 'check' failed with exit code 1 after 1s.
+[2026-10-31 21:21:31] [INFO] Finished at: 2026-10-31 21:21:31
+[2026-10-31 21:21:31] [INFO] ============================================================
+[2026-10-31 21:21:38] [INFO] ============================================================
+[2026-10-31 21:21:38] [INFO] Starting transfer operation: sync
+[2026-10-31 21:21:38] [INFO] Source:      ./test_data/source
+[2026-10-31 21:21:39] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:21:39] [SUCCESS] Operation 'sync' completed successfully in 0s.
+[2026-10-31 21:21:39] [INFO] Finished at: 2026-10-31 21:21:39
+[2026-10-31 21:21:39] [INFO] ============================================================
+[2026-10-31 21:21:44] [INFO] ============================================================
+[2026-10-31 21:21:44] [INFO] Starting transfer operation: check
+[2026-10-31 21:21:44] [INFO] Source:      ./test_data/source
+[2026-10-31 21:21:44] [INFO] Destination: ./test_data/destination
+[2026-10-31 21:21:44] [SUCCESS] Operation 'check' completed successfully in 0s.
+[2026-10-31 21:21:44] [INFO] Finished at: 2026-10-31 21:21:44
+[2026-10-31 21:21:44] [INFO] ============================================================
+[2026-10-31 21:38:44] [INFO] ============================================================
+[2026-10-31 21:38:44] [INFO] Starting transfer operation: copy
+[2026-10-31 21:38:44] [INFO] Source:      ./test_data/source
+[2026-10-31 21:38:44] [INFO] Destination: myminio:rclone-bucket-1/automated_copy/
+[2026-10-31 21:38:45] [SUCCESS] Operation 'copy' completed successfully in 1s.
+[2026-10-31 21:38:45] [INFO] Finished at: 2026-10-31 21:38:45
+[2026-10-31 21:38:45] [INFO] ============================================================
+[2026-10-31 21:39:05] [INFO] ============================================================
+[2026-10-31 21:39:05] [INFO] Starting transfer operation: check
+[2026-10-31 21:39:05] [INFO] Source:      ./test_data/source
+[2026-10-31 21:39:05] [INFO] Destination: myminio:rclone-bucket-1/automated_copy/
+[2026-10-31 21:39:05] [SUCCESS] Operation 'check' completed successfully in 0s.
+[2026-10-31 21:39:05] [INFO] Finished at: 2026-10-31 21:39:05
+[2026-10-31 21:39:05] [INFO] ============================================================
+[2026-10-31 21:47:04] [INFO] ============================================================
+[2026-10-31 21:47:04] [INFO] Starting transfer operation: copy
+[2026-10-31 21:47:04] [INFO] Source:      myminio:rclone-bucket-1/automated_copy/
+[2026-10-31 21:47:04] [INFO] Destination: ./test_data/downloads
+[2026-10-31 21:47:04] [INFO] Options:     --dry-run
+[2026-10-31 21:47:04] [SUCCESS] Operation 'copy' completed successfully in 0s.
+[2026-10-31 21:47:04] [INFO] Finished at: 2026-10-31 21:47:04
+[2026-10-31 21:47:04] [INFO] ============================================================
+[2026-10-31 21:47:20] [INFO] ============================================================
+[2026-10-31 21:47:20] [INFO] Starting transfer operation: move
+[2026-10-31 21:47:20] [INFO] Source:      myminio:rclone-bucket-1/automated_copy/
+[2026-10-31 21:47:20] [INFO] Destination: ./test_data/downloads
+[2026-10-31 21:47:20] [SUCCESS] Operation 'move' completed successfully in 0s.
+[2026-10-31 21:47:20] [INFO] Finished at: 2026-10-31 21:47:20
+[2026-10-31 21:47:20] [INFO] ============================================================
+[2026-10-31 21:48:21] [INFO] ============================================================
+[2026-10-31 21:48:21] [INFO] Starting transfer operation: sync
+[2026-10-31 21:48:21] [INFO] Source:      ./test_data/downloads
+[2026-10-31 21:48:21] [INFO] Destination: myminio:rclone-bucket-1/automated_copy/
+[2026-10-31 21:48:22] [SUCCESS] Operation 'sync' completed successfully in 1s.
+[2026-10-31 21:48:22] [INFO] Finished at: 2026-10-31 21:48:22
+[2026-10-31 21:48:22] [INFO] ============================================================
+[2026-11-01 09:58:49] [INFO] ============================================================
+[2026-11-01 09:58:49] [INFO] Starting transfer operation: check
+[2026-11-01 09:58:49] [INFO] Source:      ./test_data/source
+[2026-11-01 09:58:49] [INFO] Destination: myminio:rclone-bucket-1/assets/
+[2026-11-01 09:58:49] [SUCCESS] Operation 'check' completed successfully in 0s.
+[2026-11-01 09:58:49] [INFO] Finished at: 2026-11-01 09:58:49
+[2026-11-01 09:58:49] [INFO] ============================================================
+[2026-11-01 10:04:56] [INFO] ============================================================
+[2026-11-01 10:04:56] [INFO] Starting transfer operation: check
+[2026-11-01 10:04:56] [INFO] Source:      ./test_data/source
+[2026-11-01 10:04:56] [INFO] Destination: myminio:rclone-bucket-1/assets/
+[2026-11-01 10:04:56] [SUCCESS] Operation 'check' completed successfully in 0s.
+[2026-11-01 10:04:56] [INFO] Finished at: 2026-11-01 10:04:56
+[2026-11-01 10:04:56] [INFO] ============================================================
+[2026-11-01 10:04:56] [ERROR] Configuration error: Local .env file not found at '/home/veera/workspace/testpress_python/testpress/devops_exercises/rclone/.env'.
+[2026-11-01 10:04:56] [ERROR] Please create it using: cp .env.example .env and fill in your MinIO credentials.
+[2026-11-01 10:04:56] [ERROR] Invalid .env configuration: Missing required key(s): MINIO_ENDPOINT_URL MINIO_ACCESS_KEY_ID MINIO_SECRET_ACCESS_KEY
+[2026-11-01 10:04:56] [ERROR] Please check '/home/veera/workspace/testpress_python/testpress/devops_exercises/rclone/.env' and supply all required MinIO credentials.
+[2026-11-01 10:04:56] [INFO] ============================================================
+[2026-11-01 10:04:56] [INFO] Starting transfer operation: copy
+[2026-11-01 10:04:56] [INFO] Source:      ./test_data/source
+[2026-11-01 10:04:56] [INFO] Destination: ./test_data/destination
+[2026-11-01 10:04:57] [SUCCESS] Operation 'copy' completed successfully in 1s.
+[2026-11-01 10:04:57] [INFO] Finished at: 2026-11-01 10:04:57
+[2026-11-01 10:04:57] [INFO] ============================================================
+[2026-11-01 10:41:10] [INFO] ============================================================
+[2026-11-01 10:41:10] [INFO] Starting transfer operation: copy
+[2026-11-01 10:41:10] [INFO] Source:      ./test_data/source
+[2026-11-01 10:41:10] [INFO] Destination: myminio:docker-bucket/
+[2026-11-01 10:41:11] [SUCCESS] Operation 'copy' completed successfully in 1s.
+[2026-11-01 10:41:11] [INFO] Finished at: 2026-11-01 10:41:11
+[2026-11-01 10:41:11] [INFO] ============================================================
+[2026-11-01 10:41:11] [INFO] ============================================================
+[2026-11-01 10:41:11] [INFO] Starting transfer operation: check
+[2026-11-01 10:41:11] [INFO] Source:      ./test_data/source
+[2026-11-01 10:41:11] [INFO] Destination: myminio:docker-bucket/
+[2026-11-01 10:41:11] [SUCCESS] Operation 'check' completed successfully in 0s.
+[2026-11-01 10:41:11] [INFO] Finished at: 2026-11-01 10:41:11
+[2026-11-01 10:41:11] [INFO] ============================================================
