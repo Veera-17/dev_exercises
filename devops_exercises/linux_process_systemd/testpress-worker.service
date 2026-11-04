@@ -1,0 +1,41 @@
+[Unit]
+Description=Testpress Background Worker Service (Engineering Lab #3)
+Documentation=https://hub.testpress.tech/doc/linux-process-management-systemd-XbWJjhW4cq
+After=network.target
+
+# Crash loop rate-limiting (MUST be under [Unit] in modern systemd)
+StartLimitIntervalSec=30s
+StartLimitBurst=5
+
+[Service]
+Type=simple
+
+# Run as dedicated non-root user
+User=veera
+Group=veera
+
+# Working directory and environment configuration
+WorkingDirectory=/home/veera/workspace/dev_exercises/devops_exercises/linux_process_systemd
+EnvironmentFile=/home/veera/workspace/dev_exercises/devops_exercises/linux_process_systemd/testpress-worker.env
+
+# Execution binary
+ExecStart=/usr/bin/python3 /home/veera/workspace/dev_exercises/devops_exercises/linux_process_systemd/app.py
+
+# Restart policy on abnormal exits
+Restart=on-failure
+RestartSec=3s
+
+# Resource Management (cgroups v2 limits)
+MemoryMax=100M
+CPUQuota=50%
+
+# Logging configuration (forward to systemd-journald)
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=testpress-worker
+
+# Graceful termination timeout
+TimeoutStopSec=15s
+
+[Install]
+WantedBy=multi-user.target
